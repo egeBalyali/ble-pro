@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ble-pro",
+    "slug": "ble-pro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.koltukkalay.blepro"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.koltukkalay.blepro"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c61d86f-ac0c-4f6f-8e1f-7257e9243da0"
+      }
+    },
+    "owner": "koltukkalay",
+    "updates": {
+      "url": "https://u.expo.dev/8c61d86f-ac0c-4f6f-8e1f-7257e9243da0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
